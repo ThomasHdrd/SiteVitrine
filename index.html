@@ -28,6 +28,7 @@
         <a class="nav-item nav-link" href="#experiences">experiences</a>
         <a class="nav-item nav-link" href="#education">éducations</a>
         <a class="nav-item nav-link" href="#portfolio">portfolio</a>
+        <a class="nav-item nav-link" href="#contact">contact</a>
         <!--<a class="nav-item nav-link" href="#recommendation">recommandation</a>-->
       </div>
     </div>
@@ -314,7 +315,67 @@
  -->
 
 
- <!-- FOOTER -->
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="container">
+    <div class="divider"></div>
+    <div class="heading">
+        <h2>Contact</h2>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-10 col-lg-offset-1">
+            <form id="contact-form" method="post" action="" role="form"> <!-- htmlspecialchars : eviter le hack XSS -->
+                <div class="row">
+
+                    <div class="col-md-6">
+                        <label for="firstname">Prénom<span class="blue"> *</span></label>
+                        <input type="text" id="firstname" name="firstname" class="form-control" placeholder="Votre Prénom" value="">
+                        <p class="comment"></p>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="name">Nom<span class="blue"> *</span></label>
+                        <input type="text" id="name" name="name" class="form-control" placeholder="Votre Nom">
+                        <p class="comment"></p>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label for="email">Email<span class="blue"> *</span></label>
+                        <input type="email" id="email" name="email" class="form-control" placeholder="Votre Email">
+                        <p class="comment"></p>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="phone">Téléphone</label>
+                        <input type="tel" id="phone" name="phone" class="form-control" placeholder="Votre Téléphone">
+                        <p class="comment"></p>
+                    </div>
+
+
+                    <div class="col-md-12">
+                        <label for="message">Message<span class="blue"> *</span></label>
+                        <textarea name="message" id="message" class="form-control" placeholder="Votre Message" rows="4"></textarea>
+                        <p class="comment"></p>
+                    </div>
+
+
+                    <div class="col-md-12">
+                        <p class="blue"><strong>* Ces informations sont requises</strong></p>
+                    </div>
+
+                    <div class="col-md-12">
+                        <input type="submit" class="button1" value="Envoyer">
+                    </div>
+
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- FOOTER -->
+
 <footer id="footer">
     <a href="#about"> <span class="bi-chevron-compact-up"></span></a> <!-- # = directement sur un element de la page -->
     <h5>Apprendre a coder.com</h5>
