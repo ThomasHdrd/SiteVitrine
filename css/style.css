@@ -40,6 +40,44 @@ ul{
     list-style: none;
 }
 
+.button1{
+    color: white;
+    text-transform: uppercase;
+    border: 2px white solid;
+    padding: 18px 50px;
+    margin-top: 20px;
+    font-weight: bold;
+    display: inline-block;
+    border-radius: 3px;
+    text-decoration: none;
+    transition: all 0.3s ease-in 0s;
+    background: transparent;
+}
+
+.button1:hover{
+    background-color: white;
+    color: rgb(85, 164, 255);
+}
+
+.button2{
+    background-color: rgb(85, 164, 255);
+    color: white;
+    text-transform: uppercase;
+    border: 2px white solid;
+    padding: 18px 50px;
+    margin-top: 20px;
+    font-weight: bold;
+    display: inline-block;
+    border-radius: 3px;
+    text-decoration: none;
+    transition: all 0.3s ease-in 0s;
+}
+
+.button2:hover{
+    background-color: white ;
+    color:rgb(85, 164, 255);
+    border: 2px rgb(85, 164, 255) solid;
+}
 
 /*NARBAR*/
 .navbar {
@@ -81,26 +119,6 @@ ul{
     color: white;
     margin-bottom: 20px;
 }
-
-.button1{
-    color: white;
-    text-transform: uppercase;
-    border: 2px white solid;
-    padding: 18px 50px;
-    margin-top: 20px;
-    font-weight: bold;
-    display: inline-block;
-    border-radius: 3px;
-    text-decoration: none;
-    transition: all 0.3s ease-in 0s;
-}
-
-.button1:hover{
-    background-color: white;
-    color: rgb(85, 164, 255);
-}
-
-
 
 /*SKILLS*/
 #skills .heading h2{
@@ -323,10 +341,13 @@ ul{
 
 
 /*CONTACT*/
-body {
-    font-family: "Lato", sans-serif;
-    margin: 70px 0px;
-    background: #0069d6;
+#contact{
+    background:white;
+}
+
+#contact .heading h2{
+    color:rgb(85, 164, 255);
+    margin: 15px 0px;
 }
 
 .divider{
@@ -336,27 +357,9 @@ body {
     margin: 0 auto;
 }
 
-.heading{
-    text-align: center;
-    margin-bottom: 60px;
-}
-
-h2{
-    text-transform: uppercase;
-    color: white;
-    font-weight: bold;
-}
-
 #contact-form{
     font-size: 20px;
-    background: white;
-    padding: 40px;
-    border-radius: 10px;
-    display: block;
-}
-
-.blue {
-    color: #0069d6;
+    color: rgb(85, 164, 255);;
 }
 
 .form-control{
@@ -367,30 +370,13 @@ h2{
 .comment {
     font-style: italic;
     font-size: 18px;
-    color: #d82c2e;
+    color:rgb(85, 164, 255);
     height: 25px;
 }
 
 #contact-form input[type=submit]{
     margin: 40px auto 0px;
     display: block;
-}
-
-.button1{
-    border: 1px solid #ddd;
-    background-color: #ffa500;
-    color: white;
-    width: 100%;
-    font-weight: bold;
-    text-transform: uppercase;
-    padding: 18px;
-    border-radius: 5px;
-    transition: all 0.3s ease-in 0s;
-}
-
-.button1:hover{
-    background-color: #333;
-    border-color: #ffa500;
 }
 
 .thank-you{
